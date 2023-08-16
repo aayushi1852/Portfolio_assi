@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Use of Meta Elements-->
+    <meta charset="UTF-8">
+    <meta name="Author" content="Aayushi Shah">
+    <meta name="description" content="This is Aayushi's Biography page">
+    <meta name="keywords" content="graphic designer, web designer, aayushi shah,design,biography page,portfolio">
+    <title>Contact To Aayushi Shah</title>
+      <!--Link of google  fonts-->
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
+    <!--Link to external stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Demonstrated use of class-->
+        <nav class="wrapper">
+                
+                <a class="logo">Aayushi</a>
+                  <!--Link to all other external html files-->
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work.html">Projects</a>
+                <a href="contact.html">Contact</a>      
+        </nav>
+    </header>
+    <h1 class="connect">Let's Connect!</h1>
+    <main class="contact">
+         <!--use of form--> 
+            <form action="mailto:aayushishah2972@gmail.com">
+              
+              <!--use of label-->
+          
+              <label>Your Name</label>
+              <!--us of input-->
+              <input type="text" placeholder="Your name.." required>
+          
+
+              <label>Email Address</label>
+              <input type="email" placeholder="Enter Your Email.." required>
+              <!--optional field-->
+              <label>Mobile Number (Optional)</label>
+              <input type="tel" placeholder="Enter Your Phone Number..">
+          
+              <label>Country</label>
+              <!--use of option and optgroups -->
+              <select name="country">
+                <optgroup label="country">
+                  <option value="canada">Canada</option>
+                  <option value="india">India</option>
+                  <option value="usa">USA</option>
+                  <option value="others">Other</option>
+                </optgroup>
+              
+              </select>
+          
+              <label for="subject">Your Message</label>
+              <!--use of textarea-->
+              <textarea id="subject" name="subject" placeholder="Write something.." rows="5"></textarea>
+              <input type="submit" value="Submit">
+          
+            </form>
+    </main>
+ 
+    <!--Footer-->
+
+    <footer>
+        <section class="link">
+            <a href="https://instagram.com/aayu_5218?igshid=NDk5N2NlZjQ=" target="_blank">
+                <img class="insta" src="./images/insta.png" alt="Link to Instagram Account"> </a>
+            <a href="https://www.linkedin.com/in/aayushi-shah-67a4281a4/" target="_blank">
+                <img src="./images/linkedin.png" alt="Linkedin Account Link"></a>
+            <a href="https://github.com/aayushi1852" target="_blank">
+                <img src="./images/github.png" alt="Link to Github Account"></a>
+          </section>
+          <p class="footer">Copyright &copy; 2023.All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
