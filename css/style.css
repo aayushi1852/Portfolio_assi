@@ -418,10 +418,10 @@ input[type=submit]:hover {
 
 /* styled addInfo */
 .addInfo {
-    font-size: 110%;
-    line-height: 130%;
+    font-size: 90%;
+    line-height: 110%;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     color: rgb(209, 59, 59);
 }
 
